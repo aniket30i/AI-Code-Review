@@ -8,7 +8,7 @@ import Markdown from "react-markdown";
 import rephypeHighlight from "rehype-highlight";
 import "highlight.js/styles/atom-one-dark.css";
 
-const API = import.meta.env.AI_API_LINK;
+const API = import.meta.env.VITE_AI_API_LINK;
 
 function App() {
   const [code, setCode] = useState(`function sum() { return 1+1; }`);
@@ -24,6 +24,7 @@ function App() {
 
     setReview(response.data);
   }
+  console.log("APi from env", API);
   return (
     <>
       <main>
