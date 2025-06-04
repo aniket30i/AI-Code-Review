@@ -8,6 +8,8 @@ import Markdown from "react-markdown";
 import rephypeHighlight from "rehype-highlight";
 import "highlight.js/styles/atom-one-dark.css";
 
+const API = import.meta.env.AI_API_LINK;
+
 function App() {
   const [code, setCode] = useState(`function sum() { return 1+1; }`);
   const [review, setReview] = useState(``);
@@ -16,7 +18,7 @@ function App() {
   }, []);
 
   async function reviewCode() {
-    const response = await axios.post("http://localhost:3000/ai/get-review", {
+    const response = await axios.post(`${API}/ai/get-review`, {
       code,
     });
 
