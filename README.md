@@ -19,7 +19,7 @@ Welcome to the Oopsinder! This tool automatically analyzes your code, highlights
 ---
 
 ### Python Code Review
-![Python Code Review Screenshot](screenshot/pyex.jpg)  
+![Python Code Review Screenshot](screenshots/pyex.jpg)  
 *Here’s how the AI evaluates a Python script, pointing out potential bugs and style improvements.*
 
 ---
