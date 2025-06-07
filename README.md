@@ -25,3 +25,10 @@ Welcome to the Oopsinder! This tool automatically analyzes your code, highlights
 ---
 
 Feel free to try it out and see how AI can streamline your code review process!
+
+
+
+
+## Future Update 🚀
+
+- One minimalist landing page for the app, just like the minimal reviewer --- ideas hunting in progress.
