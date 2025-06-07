@@ -68,9 +68,26 @@ main .left .review {
   border-radius: 0.7rem;
 }
 
+.code {
+  position: relative;
+}
+
 main .right {
   background-color: #343434;
   padding: 1rem 2rem;
   font-size: 1.3rem;
   overflow: scroll;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader-icon {
+  animation: spin 4s linear infinite;
 }
